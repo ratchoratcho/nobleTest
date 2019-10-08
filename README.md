@@ -2,8 +2,8 @@
 ## 注意
 pi0, pi3 どちらで動かすかによって適宜 `Dockerfile` 内のコードを書き換えてください
 ```dockerfile
-FROM balenalib/raspberry-pi-alpine-node:8  # for pi0(動作検証済み)
-# FROM balenalib/raspberrypi3-alpine-node:8  # for pi3(動作検証 まだ)
+FROM balenalib/raspberry-pi-alpine-node:8  # for pi0
+# FROM balenalib/raspberrypi3-alpine-node:8  # for pi3
 ```
 
 ## version
