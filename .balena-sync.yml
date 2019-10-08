@@ -1,7 +1,7 @@
 local_balenaos:
   app-name: local-app
   build-triggers:
-    - Dockerfile: d3b41a6ee867dfd8d34de2e717f34b2f29ec0bc88f2d911d15258522eb009127
+    - Dockerfile: 11af11e56b2c3fe16576d48c5fc374cb45116326667255e083c747d2374b2aaf
     - package.json: e060333e54801b93a1e3304b203c2590447505528b7420bb7ae616cef603fa77
   environment: []
 destination: /usr/src/app

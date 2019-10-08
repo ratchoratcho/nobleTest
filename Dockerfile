@@ -1,5 +1,5 @@
-# FROM balenalib/raspberry-pi-alpine-node:8
-FROM balenalib/raspberrypi3-alpine-node:8
+FROM balenalib/raspberry-pi-alpine-node:8
+# FROM balenalib/raspberrypi3-alpine-node:8
 
 WORKDIR /usr/src/app
 
