@@ -21,9 +21,7 @@ noble.on('scanStart', () => {
 noble.on('scanStop', () => {
     // 1台 connect した時に `scanStop` イベントがなぜか呼ばれてしまう
     // これが呼ばれた時にはしっかりスキャンが止まっている
-    // ここでは，スキャンを継続するために，`startScanning()` を呼んでいる
     console.log('scan stop');
-    noble.startScanning(serviceUUIDs, true);
 });
 
 noble.on('discover', peripheral => {

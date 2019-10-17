@@ -1,7 +1,7 @@
 # write below which program you wanna run 
-node exampleAdvertisementDiscovery.js
-# node exampleEnterExit.js
-# node myScanConnect.js
+node exampleAdvertisementDiscovery.js  # ひたすらデバイスをスキャンし続けるサンプル
+# node exampleEnterExit.js  # デバイスがいなくなったことを認識するサンプル
+# node myScanConnect.js  # スキャンしたデバイスと接続するサンプル
 
 
 while true; do

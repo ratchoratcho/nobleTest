@@ -15,7 +15,7 @@ noble.on('stateChange', state => {
 });
 
 noble.on('discover', peripheral => {
-    console.log('peripheral discovered (' + peripheral.id + ' with address <' + peripheral.address +  ', ' + peripheral.addressType + '>,' + ' connectable ' + peripheral.connectable + ',' + ' RSSI ' + peripheral.rssi + ':');
+    console.log(new Date() + 'peripheral discovered (' + peripheral.id + ' with address <' + peripheral.address +  ', ' + peripheral.addressType + '>,' + ' connectable ' + peripheral.connectable + ',' + ' RSSI ' + peripheral.rssi + ':');
     console.log('\thello my local name is:');
     console.log('\t\t' + peripheral.advertisement.localName);
     console.log('\tcan I interest you in any of the following advertised services:');
