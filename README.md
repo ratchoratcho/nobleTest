@@ -8,6 +8,8 @@ FROM balenalib/raspberry-pi-alpine-node:8  # for pi0
 
 - 動かしたいプログラムを `start.sh` 内で指定してください
 
+- balenaOS v2.32.0 での動作検証しかしていません． balenaOS v2.7.8 で動作させたい場合は，別途コンテナ内からbluez?にアクセスするための設定が必要だと思われます．
+
 ## version
 ```sh
 $ node -v
